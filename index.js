@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get("/", function(req,res){
-    res.send("<h1> Bem-vindo ao CineNode - VERSÃO ATUALIZADA!</h1>");
+    res.send(`<h1> Bem-vindo ao CineNode - VERSÃO ATUALIZADA!</h1> <p>O seu catálogo de filmes - Turma 2026.1</p>`);
 })
 
 app.get("/produtos", function(req,res){
